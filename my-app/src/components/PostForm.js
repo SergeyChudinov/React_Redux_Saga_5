@@ -15,7 +15,6 @@ class PostFrom extends React.Component {
 
 	submitHandler = event => {
 		event.preventDefault();
-		console.log(this.state.title)
 
 		const {title} = this.state;
 
