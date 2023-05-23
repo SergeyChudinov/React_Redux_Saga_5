@@ -1,8 +1,7 @@
 import { showAlert } from './actions';
-import { CREATE_POST, SHOW_ALERT } from './types'
+import { CREATE_POST } from './types'
 
 const forbidden = ['fuck', 'spam', 'php'];
-
 
 export function forbiddenWordsMiddleware({dispatch}) {
 	return function(next) {

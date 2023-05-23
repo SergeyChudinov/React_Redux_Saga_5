@@ -1,11 +1,8 @@
-import { useState } from 'react';
 import FetchedPosts from './components/FetchedPosts';
 import PostFrom from './components/PostForm';
 import Posts from './components/Posts';
 
 function App() {
-
-
   return (
     <div className="container pt-3">
       <div className='row'>
