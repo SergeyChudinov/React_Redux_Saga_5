@@ -1,6 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { createPost, showAlert, hideAlert } from '../redux/actions';
+import { createPost, showAlert } from '../redux/actions';
 import { Alert } from './Alert';
 
 class PostFrom extends React.Component {
@@ -61,8 +61,7 @@ class PostFrom extends React.Component {
 
 const mapDispatchToProps = {
 	createPost,
-	showAlert,
-	hideAlert
+	showAlert
 }
 
 const mapStateToProps = state => ({
